@@ -7,7 +7,7 @@ int main(){
     int tomb_3[10]={3,1,15,14,25,72,32,45,62,80};
     int szigmon = 0;
     for(int i=0;i<10-1;i++){
-        if(tomb_1[i] < tomb_1[i+1]) //a tomb_(1,2,3) nevet átírod amelyiket éppen tesztelni szeretnéd
+        if(tomb_1[i] < tomb_1[i+1]) //a tomb_(1,2,3) nevet Ã¡tÃ­rod amelyiket Ã©ppen tesztelni szeretnÃ©d
             szigmon++;
         else if(tomb_1[i] > tomb_1[i+1])
             szigmon--;
