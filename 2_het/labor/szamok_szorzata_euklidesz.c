@@ -4,7 +4,7 @@ int main() {
     int a = 11220;
     int b = 2002;
     while (b > 0) {
-        int temp = b; // a b v·ltozÛ ÈrtÈke, amikor az a Èpp 374-re v·ltozik: 44
+        int temp = b; // a b v√°ltoz√≥ √©rt√©ke, amikor az a √©pp 374-re v√°ltozik: 44
         b = a % b;
         a = temp;
     }
