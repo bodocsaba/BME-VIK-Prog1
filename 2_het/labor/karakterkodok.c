@@ -4,6 +4,6 @@ int main(void) {
     char betu;
     while (scanf("%c", &betu) == 1)
         printf("betu='%c', betu=%d\n", betu, betu);
-    // A beírt szöveg(ek)-et betûnként kiírja és mellé az ASCII számát is
+    // A beÃ­rt szÃ¶veg(ek)-et betÅ±nkÃ©nt kiÃ­rja Ã©s mellÃ© az ASCII szÃ¡mÃ¡t is
     return 0;
 }
