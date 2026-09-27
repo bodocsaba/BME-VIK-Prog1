@@ -21,7 +21,7 @@ int szamjegyekosszege(int szam){
     int osszeg = 0;
     int temp = szam;
     int db = szamjegyekszama(szam);
-    while(temp > 0){  // jobbrÛl balra megy¸nk vÈgig a sz·mjegyeken
+    while(temp > 0){  // jobbr√≥l balra megy√ºnk v√©gig a sz√°mjegyeken
         int szamjegy = temp % 10;
         osszeg += hatvanyozo(szamjegy,db);
         temp /= 10;
